@@ -1,0 +1,58 @@
+
+/***** BASE *******/
+*	{box-sizing: border-box; 
+	overflow: hidden;} 
+
+body{background-color: #8A8A8A;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;}
+
+div{display: block;
+	float: left;
+	background-color: #F5F3F3;;
+	min-height: 150px;
+	margin: 5px 5px 5px 5px;
+	border: 1px black solid;
+	min-height: 170px;}
+
+header{border: 1px black solid;
+	width: 60%;
+	position: relative;
+	bottom: 2px;
+	left: 41%;}
+
+p{margin: 12px; font-size: 16px;}
+
+h1{color: #ffffff; font-size: 3em;}
+
+h2{font-size: 1em;}
+
+/***** SPECIFIED SETTINGS *******/
+.row{width: 100%;}
+
+div#Sandw header{background-image: linear-gradient(to right, #FFC0CB, #FF69b4)}
+div#Cactus header{background-image: linear-gradient(to right, #FF69B4, #FF00FF)}
+div#Soup header{background-image: linear-gradient(to right, #FF00FF, #E6E6FA)}
+div#Soup header.col-md-12{width: 29.5%;}
+
+/***** LARGE DEVICES *******/
+@media (min-width: 992px) {
+	.col-lg-4{float: left;
+			width: 32.2%;
+			height: 100%;}}
+
+/***** MEDIUM DEVICES *******/
+@media (min-width: 768px) and (max-width: 991px){
+		.col-md-6{float: left;
+				width: 48%;}
+		.col-md-12{float: left;
+				width: 97.2%;
+				height: 100%;}}
+
+/***** SMALL DEVICES *******/
+@media (max-width: 767px){
+		.col-sm-12{float: left;
+			width: 98%;
+			height: 100%;}}
