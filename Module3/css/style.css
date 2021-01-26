@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+#top a{
+	text-decoration: none;
+}
+.row{
+	margin-left: 0;
+}
+
+
+/******NAVIGATION HEADER*********/
+#header-nav{background-image: linear-gradient(to right, #ABEBC6, #0E6251);
+	border-radius: 0;
+	border: 0;
+	border-bottom: 3px solid #000000;
+}
+.navbar{position: relative;
+	min-height: 20px;
+}
+.navbar-brand {
+	min-height: 90px;
+}
+.navbar-brand h1{
+	font-size: 2.5em;
+	color:#FDFEFE;
+	margin: 0;
+	font-style: bold;
+	float: left;
+	text-align: left;
+	padding: 10px 0 10px 10px;
+	text-shadow: 3px 2px #000000}
+
+/******MAIN CONTENT**********/
+html,body
+{	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 100%;
+}
+div.block-menu-item{
+	margin-bottom: 10px;
+}
+#main-content h2{
+	color: #403E37;
+	font-size: 2em;
+	width: 100%;
+}
+.block-menu-item{
+	background: #C8CBCA;
+	color: #000000;
+	font-size: 1em;
+	margin: 2% 5%;
+	border: 3px solid #000000;
+	margin: 0;
+}
+.block-menu-item h3{
+	color: #FFFFFF;
+	margin: 0;
+	text-shadow: 1px 1px #000000;
+
+}
+.chicken-block h3{
+	background: #ABEBC6;
+}
+.sushi-block h3{
+	background: #0E6251;
+}
+.beef-block h3{
+	background: #45B991;
+}
+
+.block-menu-item hr{
+	float: left;
+	width: 100%;
+	border-width: 3px;
+	margin: 0;}
+
+.wiki{
+	font-style: italic;
+}
+.index-button{
+	border: 2px solid #000000;
+	font-size: 0.8em;
+	margin: 1em;
+	background: #ABEBC6;
+	color: #0E6251;
+}
+.index-button:hover{
+	background: #403E37;
+	color: #FFFFFF;
+}
+
+#sushi .index-buttom{
+	background: #ABEBC6;
+}
+p{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/*********SMALL TO LARGE DEVICES*******/
+
+
+/******EXTRA SMALL DEVICES******/
+@media (max-width: 767px){
+.icon-bar{
+	border: 1px solid #FDFEFE;
+}
+#nav-list a{
+	text-align: center;
+	font-size: 1.5em;
+	font-style: bold;
+	color:#FDFEFE;
+	margin-bottom: 3px;
+}
+#nav-list a:hover{
+	color:#FFFFFF;
+	background: #403E37;
+}
+
+#collapsable-nav{
+	opacity: 0.8;
+	background-color: #9E9E9E;
+	border-top: 3px solid #000000;
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+}
+button.navbar-toggle{
+	margin-top: 30px;
+}}
+
+.container{padding-left: 0px;}
